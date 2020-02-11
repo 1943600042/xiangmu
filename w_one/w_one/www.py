@@ -16,4 +16,5 @@ def there(request,id):
 
 def four(request,id,name):
     s = 'shenmmmm%s,%s'%(id,name)
+    print(s)
     return HttpResponse(s)
